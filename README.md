@@ -1,14 +1,14 @@
 # 🏥 Hospital Data Management Dashboard  
 *A TIBCO Spotfire Interactive Analytics & Data-Entry System*
 
-This repository contains a **Spotfire dashboard (.dxp)** designed to streamline hospital data intake and provide deep analytical insights across patient demographics, admissions, treatments, and clinical outcomes.
+This repository contains a **Spotfire dashboard (.dxp)** designed to streamline hospital data intake and provide deep analytical insights across patient demographics, admissions, Financial performance, treatments, and clinical outcomes.
 
 The dashboard integrates **data entry**, **data quality monitoring**, and **advanced analytics** into a unified interface for healthcare institutions.
 
 ---
 
 ## 📌 Key Features
-- **Patient Data Entry Interface** – Enter and validate patient information directly inside Spotfire  
+- **Patient Data Entry Interface** – Enter and update the source system directly from Spotfire  
 - **Admission & Encounter Analytics** – Track patient volume, demographics, stay duration, and disease categories  
 - **Clinical Outcomes & Treatment Effectiveness** – Understand how treatments correlate with outcomes  
 - **Financial Performance Monitoring** – Analyze cost of care and department-wise performance  
@@ -20,7 +20,7 @@ The dashboard integrates **data entry**, **data quality monitoring**, and **adva
 
 ## 1️⃣ Intro Page – Navigation Hub 
 
-![alt text](./Snapshots/Intro.JP)
+![Alt text](Dashboard/Snapshots/Intro.JPG)
 
 
 The **Intro** page acts as the central navigation hub of the dashboard.  
@@ -31,16 +31,41 @@ It provides quick access to both **data-entry** and **analytics** modules.
 - Provide a clean and user-friendly entry point  
 
 ### **Components**
-- **Patient Data Entry** button  
+- **Data Entry** button:
+  - Patient Data Entry 
 - **Analytics Navigation** buttons:
   - Patient Admission & Encounter Analytics  
   - Treatment Effectiveness & Clinical Outcomes  
   - Financial Performance & Cost of Care  
 
 ---
+## 2️⃣ Patient Data Entry Page  
+![Alt text](Dashboard/Snapshots/Patient%20Data%20Entry.JPG)
 
-## 2️⃣ Patient Admission & Encounter Analytics  
-![Admission Analytics](./Patient Admission & Encounter Analytics.JPG)
+This section provides an intuitive **form-based data entry interface** inside Spotfire.
+
+### **Purpose**
+Allows users to manually input or update patient demographic details.
+
+### **Form Fields**
+- Patient ID  
+- First Name & Last Name  
+- Gender  
+- Height (cm) & Weight (kg)  
+- Marital Status  
+- Nationality  
+- Blood Type  
+- Birth Date  
+
+### **Features**
+- Drop-down menus for controlled data entry  
+- Submit button for adding new entries  
+- Full patient table for real-time verification  
+
+---
+##  3️⃣  Patient Admission & Encounter Analytics  
+![Alt text](Dashboard/Snapshots/Patient%20Admission%20%26%20Encounter%20Analytics.JPG)
+
 
 This page provides **descriptive and interactive analytics** focused on hospital admissions, demographics, and disease categories.
 
@@ -78,30 +103,7 @@ Bar chart representing:
 
 ---
 
-## 3️⃣ Patient Data Entry Page  
-![Patient Entry](./Patient Data Entry.JPG)
 
-This section provides an intuitive **form-based data entry interface** inside Spotfire.
-
-### **Purpose**
-Allows users to manually input or update patient demographic details.
-
-### **Form Fields**
-- Patient ID  
-- First Name & Last Name  
-- Gender  
-- Height (cm) & Weight (kg)  
-- Marital Status  
-- Nationality  
-- Blood Type  
-- Birth Date  
-
-### **Features**
-- Drop-down menus for controlled data entry  
-- Submit button for adding new entries  
-- Full patient table for real-time verification  
-
----
 
 # 🛠️ Technologies Used
 - **TIBCO Spotfire Analyst**  

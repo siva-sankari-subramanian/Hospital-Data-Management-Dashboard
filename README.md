@@ -103,31 +103,10 @@ Bar chart representing:
 
 ---
 
-This is a great request! Based on the provided snapshots of the Spotfire dashboard, here is a professional and detailed GitHub README structure outlining the purpose and key visualizations of each page.
 
-***
 
-# Spotfire Hospital Data Management Dashboard
-
-This dashboard is designed to provide comprehensive insights into patient clinical outcomes, treatment effectiveness, and financial performance across various encounters. It serves as a centralized tool for healthcare administrators and clinical analysts to monitor key metrics, identify trends, and optimize care delivery and cost management.
-
-## 📊 Dashboard Pages
-
-The dashboard is structured into three main analytical pages, each focusing on a distinct area of hospital operations and patient care.
-
----
-
-## 1. Patient Admission & Encounter Analytics (Snapshot not provided, but assumed)
-
-* **Purpose:** To provide an overview of patient demographics, admission trends, length of stay, and initial diagnosis patterns. This page typically helps in understanding patient flow and operational efficiency.
-* **Key Visualizations (Inferred):**
-    * **Time Series Charts:** Admissions/Discharges by month/year.
-    * **Bar Charts:** Distribution of patient demographics (Age, Gender, Location).
-    * **Tables:** Top 'N' reasons for admission (Primary Diagnosis).
-
----
-
-## 2. Treatment Effectiveness & Clinical Outcomes
+## 4️⃣ Treatment Effectiveness & Clinical Outcomes
+![Alt text](Dashboard/Snapshots/Treatment%20Effectiveness%20%26%20Clinical%20Outcomes.JPG)
 
 This page focuses on the clinical journey of patients, comparing vital signs, lab results, and treatment details between admission and discharge to assess the effectiveness of care.
 
@@ -142,7 +121,7 @@ This page focuses on the clinical journey of patients, comparing vital signs, la
 
 ---
 
-## 3. Financial Performance & Cost of Care
+## 5️⃣ Financial Performance & Cost of Care
 
 This page provides an in-depth view of the financial aspects of care, focusing on treatment costs, insurance coverage, and resource utilization (room occupancy).
 
@@ -160,12 +139,6 @@ This page provides an in-depth view of the financial aspects of care, focusing o
 
 * **Data Visualization Tool:** TIBCO Spotfire
 * **Data Source:** Hospital Encounter Data (Likely sourced from an EMR/EHR system and Financial systems)
-
+* **Programming Languages Used:** SQL, IronPython, HTML, Javascript 
 ***
 
-## 💡 How to Use the Dashboard
-
-1.  **Select Encounters:** Start by using the **Encounter ID** filter (in the **Treatment Effectiveness** page) to focus on a specific patient or a group of patients.
-2.  **Analyze Clinical Outcomes:** Use the **Vitals** and **Lab Test** charts to quickly determine if the patient's condition improved between admission and discharge.
-3.  **Evaluate Cost Drivers:** Switch to the **Financial Performance** page to see how the treatments administered contributed to the overall **Cost Distribution** and the patient's **Insurance Coverage**.
-4.  **Operational Review:** Use the **Room Type vs Occupancy** chart to understand how busy the hospital was during a particular period.

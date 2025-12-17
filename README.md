@@ -5,6 +5,8 @@ This repository contains a **Spotfire dashboard (.dxp)** designed to streamline 
 
 The dashboard integrates **data entry**, **data quality monitoring**, and **advanced analytics** into a unified interface for healthcare institutions.
 
+[Please refer this repository for more insights on Data used](https://github.com/siva-sankari-subramanian/Medical-Dataset/blob/main/README.md)
+
 ---
 
 ## 📌 Key Features
@@ -122,6 +124,7 @@ This page focuses on the clinical journey of patients, comparing vital signs, la
 ---
 
 ## 5️⃣ Financial Performance & Cost of Care
+![Alt text](Dashboard/Snapshots/Financial%20Performance%20%26%20Cost%20of%20Care.JPG)
 
 This page provides an in-depth view of the financial aspects of care, focusing on treatment costs, insurance coverage, and resource utilization (room occupancy).
 
@@ -138,7 +141,7 @@ This page provides an in-depth view of the financial aspects of care, focusing o
 ## 🛠️ Technology Stack
 
 * **Data Visualization Tool:** TIBCO Spotfire
-* **Data Source:** Hospital Encounter Data (Likely sourced from an EMR/EHR system and Financial systems)
+* **Data Source:** [Medical Dataset (Used from my Datawarehousing project))](https://github.com/siva-sankari-subramanian/Medical-Dataset)
 * **Programming Languages Used:** SQL, IronPython, HTML, Javascript 
 ***
 
